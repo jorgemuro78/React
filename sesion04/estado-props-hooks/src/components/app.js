@@ -1,8 +1,8 @@
 import { useState } from "react";
-import ProductCard from "./product-card";
+import ProductCard from "./products-cards";
 
 function App() {
-  const [products, setProducts] = useState([
+  const [products] = useState([
     {
       name: "Nintendo Switch v1.1",
       price: 6500,

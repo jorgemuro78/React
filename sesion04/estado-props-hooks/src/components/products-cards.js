@@ -14,7 +14,7 @@ function ProductCard({ discount, picture, price, name, description }) {
       <figcaption>
         <h3>{name}</h3>
         <p>{description}</p>
-        <a style={styles}>Agregar al carrito</a>
+        <a href={styles}>Agregar al carrito</a>
       </figcaption>
     </figure>
   );
