@@ -1,0 +1,63 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#table {
+  background-color: rgb(255, 170, 242);
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+.tablecloth {
+  background-color: purple;
+  width: 200px;
+  height: 100px;
+  padding: 30px;
+}
+
+.spaceAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cutlery {
+  background-color: gray;
+  width: 15%;
+  height: 100%;
+}
+
+.dish {
+  background-color: white;
+  border-radius: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.centerpiece {
+  background-color: orangered;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flower {
+  background-color: yellow;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.width70 {
+  width: 70%;
+}
