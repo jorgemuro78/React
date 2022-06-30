@@ -1,4 +1,4 @@
-function Pokemon({ number, name, artwork, types}) {
+function Pokemon({ number, name, artwork, types }) {
   return (
     <div className="card" style={{ width: "18rem" }}>
       <img src={artwork} className="card-img-top" alt={name} />

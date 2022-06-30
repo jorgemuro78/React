@@ -7,13 +7,13 @@ function Detail() {
   const [pokemon, setPokemon] = useState(null);
 
   useEffect(function () {
-    fetch("https://bedu-pokemon-api.herokuapp.com/pokemon/ " + params.id)
+    fetch("https://bedu-pokemon-api.herokuapp.com/pokemon/" + params.id)
       .then((response) => response.json())
       .then(({ data }) => setPokemon(data));
   }, []);
 
   return (
-    <div className="vw-100 d-fex justify-content-center align-items-center">
+    <div className="vw-100 vh-100 d-flex justify-content-center align-items-center">
       {pokemon ? (
         <Pokemon
           number={pokemon.number}

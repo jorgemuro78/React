@@ -11,7 +11,7 @@ function Index() {
   }, []);
 
   return (
-    <div className="container mt-6">
+    <div className="container mt-4">
       <h1 className="text-center fw-bold">Pokedex</h1>
       <div className="list-group mb-4">
         {pokemon.map(({ number, name }) => (
@@ -19,7 +19,7 @@ function Index() {
             to={"/pokedex/" + number}
             className="list-group-item list-group-item-action"
           >
-            #{number} - <samp className="text-capitalize">{name}</samp>
+            #{number} - <span className="text-capitalize">{name}</span>
           </Link>
         ))}
       </div>
