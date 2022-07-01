@@ -7,7 +7,7 @@ function SelectBreed({ onBreedChange }) {
   const selectRef = useRef(null);
 
   useEffect(() => {
-    fetch("http://bedu-dogs-api.herokuapp.com/breeds")
+    fetch("https://bedu-dogs-api.herokuapp.com/breeds")
       .then((response) => {
         return response.json();
       })

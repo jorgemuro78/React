@@ -5,7 +5,7 @@ function ImgBreed({ breed }) {
 
   useEffect(
     function () {
-      fetch(`http://bedu-dogs-api.herokuapp.com/breeds/${breed}/images`)
+      fetch(`https://bedu-dogs-api.herokuapp.com/breeds/${breed}/images`)
         .then((response) => {
           return response.json();
         })
