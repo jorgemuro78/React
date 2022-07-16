@@ -11,7 +11,7 @@ function ImgBreed({ breed }) {
         })
         .then(({ data }) => {
           setPicture(data);
-        });
+        })
     },
     [breed]
   );
