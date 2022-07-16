@@ -33,11 +33,11 @@ export const Form = () => {
     if (password.campo.length > 0) {
       if (password.campo !== password2.campo) {
         cambiarPassword2((prevState) => {
-          return { ...prevState, valido: "false" };
+          return { ...prevState, valido: "true" }; //Style components no lee codigo boolean
         });
       } else {
         cambiarPassword2((prevState) => {
-          return { ...prevState, valido: "true" };
+          return { ...prevState, valido: "false" };
         });
       }
     }
