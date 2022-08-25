@@ -22,8 +22,21 @@ function BackToTopButton() {
   };
 
   return (
-    <div className="App">
-      {backToTopButton && <button className="to-top" onClick={scrollUp} />}
+  <div className="App">    
+      {backToTopButton && (
+        <button style={{
+          position: "fixed",
+          bottom: "50px",
+          right: "50px",
+          height: "50px",
+          width: "50px",
+          fontsize: "50px"
+        }}
+        onClick={scrollUp}
+        >
+          ^
+        </button>
+      )}
     </div>
   );
 }
